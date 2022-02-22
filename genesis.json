@@ -1,14 +1,25 @@
 {
-    "config": {
-        "chainId": 2018,
-        "homesteadBlock": 0
-    },
-    "alloc": {},
-    "difficulty": "10",
-    "extraData": "0x12a345",
-    "gasLimit": "0x2fefd8",
-    "nonce": "0x0000000000000042",
-    "mixhash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
-    "timestamp": "0x00"
+	"config": {
+		"chainId": 10,
+		"homesteadBlock": 0,
+		"eip150Block": 0,
+		"eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+		"eip155Block": 0,
+		"eip158Block": 0,
+		"byzantiumBlock": 0,
+		"constantinopleBlock": 0,
+		"petersburgBlock": 0,
+		"istanbulBlock": 0,
+		"ethash": {}
+	},
+	"difficulty": "1",
+	"gasLimit": "10000000000000000",
+	"alloc": {
+		"0xbC63b772e15ed71816Ff75522fd73dc09d493173": {
+			"balance": "1000000000000000000"
+		},
+		"0x45E0D76458C4C49eB810B8c4AA4Fe0A538e5D882": {
+			"balance": "1500000000000000000"
+		}
+	}
 }
